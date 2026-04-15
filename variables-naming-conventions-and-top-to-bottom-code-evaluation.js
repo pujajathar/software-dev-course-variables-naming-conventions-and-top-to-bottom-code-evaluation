@@ -27,5 +27,7 @@ Things to reflect on:
 let customerName = "Alice";
 let numberOfItems = 5;
 let itemPrice = 20;
-let purchaseDetails = customerName + " bought " + numberOfItems + " items for $" + itemPrice + ".";
+let location = "the Farmers market";
+let taxOnPurchase = itemPrice * 0.08;
+let purchaseDetails = customerName + " bought " + numberOfItems + " items for $" + itemPrice + " at " + location + " and paid the tax $" + taxOnPurchase + ".";
 console.log(purchaseDetails); 
